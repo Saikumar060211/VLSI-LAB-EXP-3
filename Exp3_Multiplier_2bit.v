@@ -1,27 +1,17 @@
-module multiplier2by2(C,A,B);
-
-input [1:0]A,B;
-
-output [3:0]C;
-
-wire w1,w2,w3,w4; 
-and (C[0],A[0],B[0]); 
-and (w1,A[0],B[1]);
-and (w2,A[1],B[0]); 
-and (w3,A[1],B[1]); 
-halfadder ha1(C[1],w4,w1,w2); 
-halfadder ha2(C[2],C[3],w3,w4);
-
-endmodule
-
-module halfadder(sum,carry,a,b);
-
+module ha(a,b,sum,carry);
 input a,b;
-
-output sum, carry;
-
-xor(sum,a,b);
-
-and(carry,a,b);
-
+output sum,carry;
+xor g1(sum,a,b);
+and g2(carry,a,b);
+endmodule
+module bitmul(a,b,p,cout);
+input [1:0]a,b;
+output [2:0]p;
+output cout;
+wire w1,w2,w3,w4;
+and (p[0],a[0],b[0]);
+and (w1,a[0],b[1]);
+and (w2,a[1],b[0]);
+and (w3,a[1],b[1]);
+ha adder1(w1,w2,p[1],w4);
 endmodule
