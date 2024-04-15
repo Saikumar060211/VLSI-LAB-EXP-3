@@ -3,11 +3,11 @@
 
 **AIM:**
 
- To simulate and synthesis multiplier using Xilinx ISE.
+To simulate and synthesis multiplier using Xilinx ISE.
 
 **APPARATUS REQUIRED:**
 
-vivado software
+vivado software.
   
 **PROCEDURE:**
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
