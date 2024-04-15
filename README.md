@@ -34,7 +34,7 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 
 **Logic Diagram**
 
-2 bit Multiplier
+**2 bit Multiplier**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
