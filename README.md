@@ -7,10 +7,10 @@ To simulate and synthesis multiplier using Xilinx ISE.
 
 **APPARATUS REQUIRED:**
 
-vivado software.
+vivado2023.3.
   
 **PROCEDURE:**
-STEP:1  Start  the Xilinx navigator, Select and Name the New project.
+STEP:1  Start  the vivado2023.3.navigator, Select and Name the New project.
 
 STEP:2  Select the device family, device, package and speed.       
 
@@ -138,7 +138,7 @@ endmodule
 
 **Result**
 
-simulation and synthesis multiplier using Xilinx ISE completed successesfully
+simulation and synthesis multiplier using vivado2023.3 completed successesfully
 
 
 
