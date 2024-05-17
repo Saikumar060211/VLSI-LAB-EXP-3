@@ -118,4 +118,4 @@ OUTPUT:![Screenshorts Image 2024-04-13 at 10 00 00_ec82e408](https://github.com/
 <<< Simulation output waveform paste it here >>>>>
 
 
-*Result*
+Result:To simulate and synthesis multiplier using Xilinx ISE is completed.
