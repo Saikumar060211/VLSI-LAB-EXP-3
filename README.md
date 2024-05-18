@@ -1,15 +1,12 @@
-V.SAIKUMAR
-212222060211
-
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
-**AIM: **
+# SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+# AIM
  To simulate and synthesis multiplier using Xilinx ISE.
 
-*APPARATUS REQUIRED:*
-Xilinx 14.7
-Spartan6 FPGA
+# APPARATUS REQUIRED
+Xilinx 14.7 Spartan6 FPGA
   
-*PROCEDURE:*
+# PROCEDURE
+```
 STEP:1  Start  the Xilinx navigator, Select and Name the New project.
 STEP:2  Select the device family, device, package and speed.       
 STEP:3  Select new source in the New Project and select Verilog Module as the Source type.                       
@@ -21,26 +18,13 @@ STEP:8  Select Check Syntax from the Synthesize  XST Process. Double Click in th
 STEP:9  In the Design Object List Window, enter the pin location for each pin in the Loc column Select save from the File menu.
 STEP:10 Double click on the Implement Design and double click on the Generate Programming File to create a bitstream of the design.(.v) file is converted into .bit file here.
 STEP:11  On the board, by giving required input, the LEDs starts to glow light, indicating the output.
-
-*Logic Diagram*
-2 bit Multiplier
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
-
-*4 Bit Multiplier*
-
-![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
-
-
-*Verilog code*
-
-LOGIC DIAGRAM:
+```
+# LOGIC DIAGRAM
+# 2bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
-
-2 bit Multiplier:
-
+# VERILOG CODE
 ```
 module HalfAdder(a,b,sum,carry);
 input a,b;
@@ -62,14 +46,16 @@ HalfAdder h0(w1,w2,y[1],w4);
 HalfAdder h1(w3,w4,y[2],y[3]);
 endmodule
 ```
-OUTPUT:![Screenshots Image 2024-04-13 at 10 00 00_88508c30](https://github.com/Mohanraj7896/VLSI-LAB-EXP-3/assets/166592482/fbc7160c-35bf-46ca-b4e9-0a162234f28d)
+# OUTPUT
 
-LOGIC DIAGRAM:
+![Screenshots Image 2024-04-13 at 10 00 00_88508c30](https://github.com/Mohanraj7896/VLSI-LAB-EXP-3/assets/166592482/fbc7160c-35bf-46ca-b4e9-0a162234f28d)
+
+# LOGIC DIAGRAM
+# 4 bit Multiplier
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/d95215dd-8cf1-4e08-93cc-96adfdd7fbdc)
 
-4 bit Multiplier:
-
+# VERILOG CODE
 ```
 module multiplier4_4(z,a,b);
 input [3:0]a,b;
@@ -107,15 +93,9 @@ or g5(carry,w[3],w[2]);
 endmodul
 ```
 
-OUTPUT:![Screenshorts Image 2024-04-13 at 10 00 00_ec82e408](https://github.com/Mohanraj7896/VLSI-LAB-EXP-3/assets/166592482/a58b5d2b-692e-4cea-a06c-8da0ba287e40)
+# OUTPUT
 
+![Screenshorts Image 2024-04-13 at 10 00 00_ec82e408](https://github.com/Mohanraj7896/VLSI-LAB-EXP-3/assets/166592482/a58b5d2b-692e-4cea-a06c-8da0ba287e40)
 
-
-
-
-*Output Waveform*
-
-<<< Simulation output waveform paste it here >>>>>
-
-
-Result:To simulate and synthesis multiplier using Xilinx ISE is completed.
+# Result
+To simulate and synthesis multiplier using Xilinx ISE is completed.
